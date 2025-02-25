@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+        .animate-fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .animate-bounce {
+            animation: bounce 1s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(-25%);
+                animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            }
+            50% {
+                transform: translateY(0);
+                animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+        .animate-slide-down {
+            animation: slideDown 0.5s ease-in-out;
+        }
+        @keyframes slideDown {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .dropdown-effect {
+            transition: all 0.3s ease-in-out;
+        }
+        .dropdown-effect:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .celebration {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        .celebration div {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #ff0;
+            animation: confetti 5s linear infinite;
+        }
+        @keyframes confetti {
+            0% {
+                transform: translateY(0) rotate(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-500 to-indigo-500 flex items-center justify-center min-h-screen">
+    <div class="bg-gradient-to-r from-indigo-600 to-purple-600 p-8 rounded-lg shadow-lg w-full max-w-lg animate-fade-in">
+        <h1 class="text-5xl font-bold mb-6 text-center text-white animate-bounce" style="font-family: 'Pacifico', cursive;">
+            Contact Us
+        </h1>
+        <form class="space-y-6" id="contactForm">
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="name" style="font-family: 'Raleway', sans-serif;">
+                    Name
+                </label>
+                <input class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm" id="name" name="name" placeholder="Your Name" type="text"/>
+            </div>
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="number" style="font-family: 'Raleway', sans-serif;">
+                    Number
+                </label>
+                <div class="flex mt-1">
+                    <span class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm">
+                        🇮🇳 +91
+                    </span>
+                    <input class="flex-1 block w-full px-3 py-2 border border-gray-300 rounded-r-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm" id="number" name="number" placeholder="Your Number" type="text"/>
+                </div>
+            </div>
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="stream" style="font-family: 'Raleway', sans-serif;">
+                    Stream
+                </label>
+                <select class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm dropdown-effect" id="stream" name="stream">
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="msc">M.Sc</option>
+                    <option value="phd">Ph.D</option>
+                </select>
+            </div>
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="course" style="font-family: 'Raleway', sans-serif;">
+                    Course
+                </label>
+                <select class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm dropdown-effect" id="course" name="course">
+                    <option value="blockchain">Blockchain</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="animation">Animation</option>
+                    <option value="aviation">Aviation</option>
+                    <option value="machine-learning">Machine Learning</option>
+                </select>
+            </div>
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="year" style="font-family: 'Raleway', sans-serif;">
+                    Year
+                </label>
+                <select class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm dropdown-effect" id="year" name="year">
+                    <option value="1st-year">1st Year</option>
+                    <option value="2nd-year">2nd Year</option>
+                    <option value="3rd-year">3rd Year</option>
+                    <option value="4th-year">4th Year</option>
+                </select>
+            </div>
+            <div class="animate-slide-down">
+                <label class="block text-sm font-medium text-gray-200" for="events" style="font-family: 'Raleway', sans-serif;">
+                    Events
+                </label>
+                <select class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm dropdown-effect" id="events" name="events">
+                    <option value="cultural">Cultural</option>
+                    <option value="tech">Tech</option>
+                    <option value="sports">Sports</option>
+                    <option value="literary">Literary</option>
+                </select>
+            </div>
+            <div class="flex justify-center animate-slide-down">
+                <button class="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition duration-150 ease-in-out transform hover:scale-105" type="button" onclick="sendWhatsApp()">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+    <div class="celebration" id="celebration" style="display: none;">
+        <div style="left: 10%; animation-delay: 0s;"></div>
+        <div style="left: 20%; animation-delay: 0.2s;"></div>
+        <div style="left: 30%; animation-delay: 0.4s;"></div>
+        <div style="left: 40%; animation-delay: 0.6s;"></div>
+        <div style="left: 50%; animation-delay: 0.8s;"></div>
+        <div style="left: 60%; animation-delay: 1s;"></div>
+        <div style="left: 70%; animation-delay: 1.2s;"></div>
+        <div style="left: 80%; animation-delay: 1.4s;"></div>
+        <div style="left: 90%; animation-delay: 1.6s;"></div>
+    </div>
+    <script>
+        function sendWhatsApp() {
+            const name = document.getElementById('name').value;
+            const number = document.getElementById('number').value;
+            const stream = document.getElementById('stream').value;
+            const course = document.getElementById('course').value;
+            const year = document.getElementById('year').value;
+            const events = document.getElementById('events').value;
+
+            const message = `Name: ${name}%0ANumber: ${number}%0AStream: ${stream}%0ACourse: ${course}%0AYear: ${year}%0AEvents: ${events}`;
+            const whatsappUrl = `https://wa.me/917068187878?text=${message}`;
+
+            window.open(whatsappUrl, '_blank');
+
+            // Show celebration animation
+            document.getElementById('celebration').style.display = 'block';
+            setTimeout(() => {
+                document.getElementById('celebration').style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
