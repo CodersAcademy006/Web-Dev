@@ -19,3 +19,4 @@ $('#add, #remove, #replace').on('click',function(e){
 		$('#main').html(content);	
 		
 	}
+}
