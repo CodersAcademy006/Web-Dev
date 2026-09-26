@@ -1,3 +1,34 @@
+# Black VPN Landing Page
+
+Landing page for a VPN service with features, testimonials and download buttons for Apple and Android. Built with Bootstrap.
+
+**Category:** Websites & Landing Pages  
+**Tech:** HTML, CSS, Bootstrap, jQuery, Font Awesome
+
+## How to run
+
+No build step or install needed. Open `index.html` in a browser.
+
+Or serve the folder locally (recommended for pages that call an API or load local files):
+
+```bash
+cd "61_page"
+python3 -m http.server 8000
+```
+
+then visit http://localhost:8000/index.html.
+
+## Files
+
+```
+index.html
+css/styles.css
+```
+
+Plus 17 asset files (images, audio, fonts, etc.).
+
+## Original notes
+
 Black Vpn
 A simple landing page for a VPN service, showcasing its features and offering the ability to download the VPN software for both Apple and Android devices.
 

@@ -1,13 +1,28 @@
-# Welcome to Frontend Project Repo
+# Perfume Product Page
 
-### Here you will find every esssetial PROJECT for a beginner Frontend Web Developer
+Product card for a perfume with price and buy button, built with Bootstrap.
 
-## You must have acknowledge about 
-	1. HTML
-	2. CSS
-	3. Any Framework
-	4. Javascript
+**Category:** UI Components & CSS Effects  
+**Tech:** HTML, CSS, Bootstrap
 
-###  Everything is Free to use. for Reference, visit : frontendmentor website
+## How to run
 
-Hope You will Like it!
+No build step or install needed. Open `index.html` in a browser.
+
+Or serve the folder locally (recommended for pages that call an API or load local files):
+
+```bash
+cd "219_productpage"
+python3 -m http.server 8000
+```
+
+then visit http://localhost:8000/index.html.
+
+## Files
+
+```
+index.html
+style.css
+```
+
+Plus 4 asset files (images, audio, fonts, etc.).
