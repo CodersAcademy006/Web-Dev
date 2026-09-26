@@ -1,8 +1,44 @@
-# Frontend Mentor - Expenses chart component solution
+# Expenses Chart Component
+
+Frontend Mentor challenge: weekly spending bar chart rendered from `data.json`.
+
+**Category:** UI Components & CSS Effects  
+**Tech:** HTML, CSS, SCSS, JavaScript, Bootstrap
+
+## How to run
+
+No build step or install needed. Open `index.html` in a browser.
+
+Or serve the folder locally (recommended for pages that call an API or load local files):
+
+```bash
+cd "148_expenses-chart-component-main"
+python3 -m http.server 8000
+```
+
+then visit http://localhost:8000/index.html.
+
+## Files
+
+```
+.gitignore
+data.json
+index.html
+style-guide.md
+assets/css/style.css
+assets/css/style.scss
+assets/js/app.js
+```
+
+Plus 7 asset files (images, audio, fonts, etc.).
+
+## Original notes
+
+### Frontend Mentor - Expenses chart component solution
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+#### Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -18,9 +54,9 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+#### Overview
 
-### The challenge
+##### The challenge
 
 Users should be able to:
 
@@ -30,7 +66,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
-### Screenshot
+##### Screenshot
 
 ![](./screenshot.jpg)
 
@@ -42,14 +78,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Links
+##### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
+#### My process
 
-### Built with
+##### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -62,7 +98,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
+##### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -86,20 +122,20 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
-### Continued development
+##### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
+##### Useful resources
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
-## Author
+#### Author
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
@@ -107,7 +143,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
+#### Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 

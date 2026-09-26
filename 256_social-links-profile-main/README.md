@@ -1,8 +1,41 @@
-# Frontend Mentor - Social links profile solution
+# Social Links Profile
+
+Frontend Mentor challenge: social links profile card using the Inter font.
+
+**Category:** UI Components & CSS Effects  
+**Tech:** HTML, CSS, Tailwind CSS
+
+## How to run
+
+No build step or install needed. Open `index.html` in a browser.
+
+Or serve the folder locally (recommended for pages that call an API or load local files):
+
+```bash
+cd "256_social-links-profile-main"
+python3 -m http.server 8000
+```
+
+then visit http://localhost:8000/index.html.
+
+## Files
+
+```
+index.html
+style-guide.md
+style.css
+assets/fonts/OFL.txt
+```
+
+Plus 12 asset files (images, audio, fonts, etc.).
+
+## Original notes
+
+### Frontend Mentor - Social links profile solution
 
 This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+#### Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -18,26 +51,26 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+#### Overview
 
-### The challenge
+##### The challenge
 
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+##### Screenshot
 
 ![](./screenshot.png)
 
-### Links
+##### Links
 
 - Solution URL: [Solution](https://github.com/devvsakib/Frontend-Projects/tree/master/social-links-profile-main)
 - Live Site URL: [Live](https://devvsakib.github.io/Frontend-Projects/social-links-profile-main)
 
-## My process
+#### My process
 
-### Built with
+##### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -47,17 +80,17 @@ Users should be able to:
 - Mobile-first workflow
 
 
-### What I learned
+##### What I learned
 
 Nothing.
 
 
-### Continued development
+##### Continued development
 
 Working....
 
 
-## Author
+#### Author
 
 - Website - [Sakib Ahmed](https://www.your-site.com)
 - Frontend Mentor - [@devvsakib](https://www.frontendmentor.io/profile/devvsakib)

@@ -1,14 +1,63 @@
-# Frontend Mentor - Space tourism website
+# Space Tourism Website
+
+Frontend Mentor challenge: multi-page space tourism site (home, destination, crew, technology) with data from `data.json`.
+
+**Category:** Websites & Landing Pages  
+**Tech:** HTML, JavaScript, CSS, SCSS, Bootstrap
+
+## How to run
+
+No build step or install needed. Open `index.html` in a browser.
+
+Or serve the folder locally (recommended for pages that call an API or load local files):
+
+```bash
+cd "261_spacetourismwebsite"
+python3 -m http.server 8000
+```
+
+then visit http://localhost:8000/index.html.
+
+## Files
+
+```
+.gitignore
+crew.html
+data.json
+destination.html
+index.html
+technology.html
+tempCodeRunnerFile.js
+test.txt
+assets/css/crew.css
+assets/css/crew.scss
+assets/css/destination.css
+assets/css/destination.scss
+assets/css/pattern.css
+assets/css/style.css
+assets/css/style.scss
+assets/css/technology.css
+assets/css/technology.scss
+assets/js/crew.js
+assets/js/destination.js
+assets/js/technology.js
+```
+
+Plus 44 asset files (images, audio, fonts, etc.).
+
+## Original notes
+
+### Frontend Mentor - Space tourism website
 
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)
 
-## Welcome! 👋
+#### Welcome! 👋
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. Our challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
 
 **To do this challenge, you need a strong understanding of HTML, CSS, and JavaScript.**
 
-## The challenge
+#### The challenge
 
 Your challenge is to build out this multi-page space tourism website and get it looking as close to the design as possible.
 
@@ -26,7 +75,7 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-## Where to find everything
+#### Where to find everything
 
 Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. The design download comes with a `README.md` file as well to help you get set up.
 
@@ -34,7 +83,7 @@ All the required assets for this project are in the `/assets` folder. The assets
 
 The design system in the design file will give you more information about the various colors, fonts, and styles used in this project.
 
-## Building your project
+#### Building your project
 
 Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
@@ -45,7 +94,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
+#### Deploying your project
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
@@ -55,7 +104,7 @@ As mentioned above, there are many ways to host your project for free. Our recom
 
 You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+#### Create a custom `README.md`
 
 We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
 
@@ -63,13 +112,13 @@ The template provides a guide for what to add. A custom `README` will help you e
 
 Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
-## Submitting your solution
+#### Submitting your solution
 
 Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
 Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
 
-## Sharing your solution
+#### Sharing your solution
 
 There are multiple places you can share your solution:
 
@@ -82,7 +131,7 @@ We provide templates to help you share your solution once you've submitted it on
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
-## Got feedback for us?
+#### Got feedback for us?
 
 We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
