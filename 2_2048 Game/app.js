@@ -37,22 +37,14 @@ function display() {
 }
 
 function assignRandom() {
-    let row = Math.floor(Math.random() * 4)
-    let col = Math.floor(Math.random() * 4)
-    if (board[row][col] == 0) {
-        let chance = Math.random();
-        if (chance > 0.9)
-            board[row][col] = 4;
-        else board[row][col] = 2;
-    } else {
-        try {
-            assignRandom();
-        } catch {
-            console.log("game over");
-        }
-    }
+    const empty = [];
+    board.forEach((row, r) => row.forEach((v, c) => { if (!v) empty.push([r, c]) }));
+    if (!empty.length) return;
+    const [row, col] = empty[Math.floor(Math.random() * empty.length)];
+    board[row][col] = Math.random() > 0.9 ? 4 : 2;
 }
 window.addEventListener('keyup', (e) => {
+    const before = JSON.stringify(board);
     switch (e.key) {
         case "ArrowUp":
             moveUp();
@@ -69,7 +61,7 @@ window.addEventListener('keyup', (e) => {
         default:
             return
     }
-    display()
+    if (JSON.stringify(board) === before) return; // no tile moved: no new tile
     assignRandom()
     display()
 })
